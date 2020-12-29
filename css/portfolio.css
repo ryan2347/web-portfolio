@@ -207,16 +207,15 @@ ul.timeline > li:before {
   bottom: 0;
   right: 0;
   display: inline-flex;
-  
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    margin: 0 1em 3em 0;
-    border-radius: 50%;
-    padding: .25em;
-    width: 50px;
-    height: 50px;
-  background-color: #a9c8ff;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1em 3em 0;
+  border-radius: 50%;
+  padding: .25em;
+  width: 50px;
+  height: 50px;
+  background-color: #2c74f3;
   
   &.show {
     visibility: visible;
@@ -228,19 +227,19 @@ ul.timeline > li:before {
     opacity: 0;
   }
 
-    svg {
-        fill: #000;
-        width: 24px;
-        height: 12px;
-    }
+  svg {
+      fill: #000;
+      width: 24px;
+      height: 12px;
+  }
 
-    &:hover {
-        background-color: #E8E8E8;
+  &:hover {
+      background-color: #E8E8E8;
 
-        svg {
-            fill: #000000;
-        }
-    }
+      svg {
+          fill: #000000;
+      }
+  }
 }
 
 .float-right{
