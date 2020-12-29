@@ -1,18 +1,32 @@
+.nav-link:hover { color: grey !important; }
+
+.navbar-fixed-top.scrolled {
+  background-color: #a9c8ff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color:#555;
+}
+
 /*CSS for Image*/
+
 .md-avatar {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-  }
-  .md-avatar.size-4 {
-    width: 150px;
-    height: 150px;
-  }
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+  
+.md-avatar.size-4 {
+  width: 230px;
+  height: 210px;
+}
 
 /*CSS for footer*/
 
 textarea {
-    resize: none;
+  resize: none;
 }
 
 .text {
@@ -114,4 +128,37 @@ textarea {
   color: #125688;
   background: #fefefe;
   border-color: #125688;
+}
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url('../img/Banner.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+
+.orange-text{
+  color: #ff9800 !important;
 }
