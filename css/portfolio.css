@@ -9,7 +9,6 @@
   color:#555;
 }
 
-
 /*CSS for Image*/
 
 .md-avatar {
@@ -244,4 +243,8 @@ ul.timeline > li:before {
 
 .float-right{
   float: right;
+}
+
+.txt-black{
+  color: black;
 }
