@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-
+ 	$(".live-tile").liveTile();
     $('#main_image').fadeIn(2000);
 
 	$(document).scroll(function () {
