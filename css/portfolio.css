@@ -23,6 +23,15 @@
   height: 230px;
 }
 
+/*CSS for about*/
+.arrow-about {
+  margin-bottom: 4px;
+  }
+
+.arrow-color {
+  color:#34b7a7
+}
+
 /*CSS for footer*/
 
 textarea {
