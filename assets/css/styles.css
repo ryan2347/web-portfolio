@@ -110,6 +110,12 @@ p {
 .font-1{
   font-size: 0.6rem;
 }
+
+/* worklist */
+
+.x-small{
+  font-size: x-small!important;
+}
 /* Timeline */
 
 ul.timeline {
